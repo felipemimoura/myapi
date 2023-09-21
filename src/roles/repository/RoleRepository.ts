@@ -9,7 +9,7 @@ export class RoleRepository {
   constructor() {
     this.roles = []
   }
-  create({ name }: CreateRoleDTO) {
+  create({ name }: CreateRoleDTO): Role {
     const role = new Role()
 
     // Juntando a classe Role junto com as informações fornecessidas pelo usuário
@@ -21,5 +21,9 @@ export class RoleRepository {
     this.roles.push(role)
 
     return role
+  }
+
+  findAll(): Role[] {
+    return this.roles
   }
 }

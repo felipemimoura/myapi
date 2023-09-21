@@ -14,6 +14,8 @@
   - [x] Criar método create na class RoleRepository
   - [x] Criar DTO para método create
   - [x] Refatorar rota create roposito
+  - [x] Criar método para buscar dados no banco de dados
+  - [] Criar rota para buscar todos
 
 
   */
