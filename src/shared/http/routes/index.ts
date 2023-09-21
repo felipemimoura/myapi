@@ -5,11 +5,18 @@
   - [x] Instalar UUID
   - [x] Criar uma nova role
   - [x] Retonar a rota criada
-  - [] Criar arquivo roles dentro da pasta entities
-  - [] Criar uma class Role
-  - [] Atribuir o id através do construtor
-  - [] utilizar  class ROle para e juntar com as informações de nome e created_at
- */
+  - [x] Criar arquivo roles dentro da pasta entities
+  - [x] Criar uma class Role
+  - [x] Atribuir o id através do construtor
+  - [x] utilizar  class Role para e juntar com as informações de nome e created_at
+  - [x] Criar RoleRepository dentro da pasta repository
+  - [x] Criar class RoleRepository
+  - [x] Criar método create na class RoleRepository
+  - [x] Criar DTO para método create
+  - [x] Refatorar rota create roposito
+
+
+  */
 import { Router } from 'express'
 import { rolesRoutes } from '@roles/http/routes/roles.routes'
 
