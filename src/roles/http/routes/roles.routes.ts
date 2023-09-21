@@ -1,19 +1,22 @@
 import { Router } from 'express'
-import { v4 as uuidV4 } from 'uuid'
+import { Role } from './entities/role'
 
 const rolesRoutes = Router()
 
-const roles = []
+const roles: Role[] = []
 
 rolesRoutes.post('/', (request, response) => {
   // Informação que vem pela requisão
   const { name } = request.body
 
-  const role = {
-    id: uuidV4(),
+  //Utilizando a classe Role
+  const role = new Role()
+
+  // Juntando a classe Role junto com as informações fornecessidas pelo usuário
+  Object.assign(role, {
     name,
     created_at: new Date(),
-  }
+  })
 
   roles.push(role)
 
