@@ -21,8 +21,10 @@
   - [x] Criar Pastas useCases
   - [x] Criar pasta creteRole para a criação de rotas
   - [x] Criar arquivo Controller para criar a rota
-  - [] Mover lógica para de criação do category
-  - [] Utilizar classe de Error para quando a role já existir
+  - [x] Mover lógica para de criação do category
+  - [x] Utilizar classe de Error para quando a role já existir
+  - [x] Criar a useCase para CreateRole
+  - [] Definir um DTO para a criação de uma role
 
 
   */
