@@ -17,7 +17,13 @@
   - [x] Criar método para buscar dados no banco de dados
   - [x] Criar rota para buscar todos
   - [x] Criar método findByName
-  - [] Não permitir cadastrar um role com o mesmo nome
+  - [x] Não permitir cadastrar um role com o mesmo nome
+  - [x] Criar Pastas useCases
+  - [x] Criar pasta creteRole para a criação de rotas
+  - [x] Criar arquivo Controller para criar a rota
+  - [] Mover lógica para de criação do category
+  - [] Utilizar classe de Error para quando a role já existir
+
 
   */
 import { Router } from 'express'
