@@ -15,8 +15,9 @@
   - [x] Criar DTO para método create
   - [x] Refatorar rota create roposito
   - [x] Criar método para buscar dados no banco de dados
-  - [] Criar rota para buscar todos
-
+  - [x] Criar rota para buscar todos
+  - [x] Criar método findByName
+  - [] Não permitir cadastrar um role com o mesmo nome
 
   */
 import { Router } from 'express'
