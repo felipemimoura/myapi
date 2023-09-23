@@ -25,6 +25,11 @@
   - [x] Utilizar classe de Error para quando a role já existir
   - [x] Criar a useCase para CreateRole
   - [x] Definir um DTO para a criação de uma role
+  - [x] Install swagger
+  - [x] Create file swagger.json on src
+  - [x] Import swagger-ui-express on server file
+  - [x] Import swagger file
+  - [] Add middleware to use swagger
 
 
   */
