@@ -24,7 +24,7 @@
   - [x] Mover lógica para de criação do category
   - [x] Utilizar classe de Error para quando a role já existir
   - [x] Criar a useCase para CreateRole
-  - [] Definir um DTO para a criação de uma role
+  - [x] Definir um DTO para a criação de uma role
 
 
   */
