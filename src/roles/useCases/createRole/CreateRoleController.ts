@@ -1,4 +1,3 @@
-import { RoleRepository } from '@roles/repository/RoleRepository'
 import { Request, Response } from 'express'
 import { CreateRoleUseCase } from './CreteRoleUseCase'
 
@@ -7,8 +6,6 @@ export class CreateRoleController {
   handler(request: Request, response: Response): Response {
     // Informação que vem pela requisão
     const { name } = request.body
-
-    const roleRepository = new RoleRepository()
 
     const role = this.createRoleUseCase.execute({ name })
 

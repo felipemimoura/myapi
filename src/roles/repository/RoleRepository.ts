@@ -20,6 +20,8 @@ export class RoleRepository {
 
     this.roles.push(role)
 
+    console.log(this.roles)
+
     return role
   }
 
