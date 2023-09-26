@@ -29,7 +29,7 @@
   - [x] Create file swagger.json on src
   - [x] Import swagger-ui-express on server file
   - [x] Import swagger file
-  - [] Add middleware to use swagger
+  - [x] Add middleware to use swagger
 
 
   */
