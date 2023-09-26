@@ -30,6 +30,11 @@
   - [x] Import swagger-ui-express on server file
   - [x] Import swagger file
   - [x] Add middleware to use swagger
+  - [x]  Install typeOrm
+  - [x]  Install reflect-metadata
+  - [x]  Install sqlite3
+  - [x]  Import reflect-metadata in server.ts
+  - [] Create file database
 
 
   */
