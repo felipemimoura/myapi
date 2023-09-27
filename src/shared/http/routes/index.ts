@@ -34,8 +34,11 @@
   - [x]  Install reflect-metadata
   - [x]  Install sqlite3
   - [x]  Import reflect-metadata in server.ts
-  - [] Create file database
-
+  - [x] Create file in shared/typeorm/index.ts
+  - [x] Initialize new DataSource file
+  - [x] add entities to dataSource
+  - [x] add migrations to dataSource
+  - [x] create a file app.ts and move all express configs
 
   */
 import { Router } from 'express'
